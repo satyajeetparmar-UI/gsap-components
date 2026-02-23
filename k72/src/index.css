@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: lausanne300;
+  src: url('../public/fonts/Lausanne-300.woff2');
+}
+
+@font-face {
+  font-family: lausanne500;
+  src: url('../public/fonts/Lausanne-500.woff2');
+}
+
+
+body {
+  margin: 0;
+  background-color: #242424;
+  min-height: 100vh;
+}
+

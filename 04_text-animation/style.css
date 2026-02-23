@@ -1,0 +1,30 @@
+* {box-sizing: border-box;margin: 0;padding: 0;color: aliceblue;}
+body, html {height: 100%;width: 100%;background-color: #111;font-family: 'Gilroy';}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../font/Gilroy-Regular.ttf') format('truetype');
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    font-size: 7rem;
+    overflow: hidden;
+    font-weight: 600;
+    span {
+      display: inline-block;
+    }
+  }
+}
+
